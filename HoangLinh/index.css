@@ -1,0 +1,111 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.summer {
+	width: 100%;
+	background: url('bgimg.jpg') no-repeat center bottom;
+	background-size: cover;
+	position: relative;
+	height: 610px;
+}
+.summer .movie-icon {
+	padding: 20px;
+	background-color:white;
+	border: 0;
+	border-radius: 50%;
+	position:absolute;	
+	top: 50%;
+}
+.summer .left {
+	left: 100px;
+}
+.summer .right {
+	right: 100px;
+}
+.summer > h2 {
+	width: 100%;
+	font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+.summer  > h2 > a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
+.summer > h2 > a:hover {
+	color: #AE670C;
+}
+.summer .wrapper {
+	position: relative;
+	width: 60%;
+	margin: auto;
+}
+.summer .wrapper .container {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.summer .wrapper .container .model-gunmetal {
+	width: 50%;
+}
+.summer .wrapper .container .gunmetal {
+	width: 50%;
+	margin: 0px;
+	position: relative;
+}
+.summer .wrapper .container .gunmetal:hover .second {
+	opacity: 1;
+}
+.summer .wrapper .container .gunmetal:hover .first {
+	opacity: 0;
+}
+.summer .wrapper .container .gunmetal .clock {
+	width: 100%;
+	text-align: center;
+}
+.summer .wrapper .container .gunmetal .clock .item {
+	width: 70%;
+	margin: 10% 25% 0% 15%;
+}
+.summer .wrapper .container .gunmetal .clock .item a {
+	text-decoration: none;
+	letter-spacing: 2.4px;
+	color: black;
+}
+.summer .wrapper .container .gunmetal .clock .item a img {
+	width: 85%;
+	object-fit: cover;
+	height: 280px;
+}
+.summer .wrapper .container .gunmetal .second {
+	background-color: transparent;
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.summer .wrapper .container .gunmetal .second h4 {
+	margin-top: 70px;
+}
+.summer .wrapper .container .gunmetal .second h4 a {
+	border: 1px solid;
+	padding: 15px 60px;
+}
+.summer .wrapper .container .gunmetal .second h4 a:hover {
+	background-color: black;
+	color: white;
+}
+.summer .wrapper .container .gunmetal .second:hover h4  {
+	will-change: transform;
+	opacity: 1;
+	transform: translateY(-40px);
+    transition: .3s ease-in-out;
+}
+.summer .wrapper .container-crux {
+	position: absolute;
+	top: 0px;
+}
