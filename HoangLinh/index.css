@@ -5,7 +5,7 @@ body {
 }
 .summer {
 	width: 100%;
-	background: url('bgimg.jpg') no-repeat center bottom;
+	background: url('./images/bgimg.jpg') no-repeat center bottom;
 	background-size: cover;
 	position: relative;
 	height: 610px;

@@ -1,5 +1,4 @@
 
-
 function next() {
 	var crux = document.getElementById("crux");
 	var modelcrux = document.getElementById("modelcrux");
@@ -19,4 +18,4 @@ function next() {
 		modelgunmetal.style.display = "block";
 	}
 }
-setInterval(next, 3000);
+setInterval(next, 5000);
