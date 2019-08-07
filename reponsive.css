@@ -1,0 +1,9 @@
+@media only screen and(max-width:1300px){
+	.title a {
+		font-size: 10px;
+	}
+	#news .strong {
+		height: auto;
+		width: 100%;
+	}
+}
