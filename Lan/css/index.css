@@ -121,24 +121,38 @@
 			height: 300px;
 			float: left;
 		}
-		.after{
+		.before{
+			position: absolute;
 			display: none;
 		}
+		.after{
+			position: relative;
+		}
 		.before img, .after img{
-			height: 85%;
+			height: 80%;
 			object-fit: cover;
+			padding-bottom: 20px;
 		}
 		.slider_hover h4, .slider_fisrt h5{
 			text-align: center;
 		}
-		.slider_hover .after .more {
+		.after .more {
 			border: 1px solid black;
+			text-align: center;
+			border: 2px solid black;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		.after .more:hover{
+			background-color: black;
+			color: white;
 		}
 		.slider_hover:hover .after{
-			opacity: 0;
+			z-index: 1;
+			position: relative;
 		}
 		 .slider_hover:hover .before {
-			opacity: 1;
-			
+			z-index: -1;
+			position: absolute;
 		}
 		 
