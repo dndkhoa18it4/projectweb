@@ -1,0 +1,146 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: initial;
+}
+#news {
+	height: auto;
+	width: 90%;
+	margin: auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+  .title  {
+	text-align: center;
+	font-size: 30px;
+	font-family: initial;
+	letter-spacing: 3px;
+
+}
+.title  a {
+	text-decoration: none;
+	color: black;
+}
+#news a{
+	text-decoration: none;
+	color: black;
+}
+#news .strong {
+	width: 23%;
+	height: auto;
+	float: left;
+	padding: 0px 10px;
+	line-height: 17px;
+}
+
+#news .strong img {
+	width: 100%;
+	height: auto;
+}
+#news .strong h5 {
+	margin-top: 10px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin-bottom: 0px;
+	line-height: 20px;
+	overflow: hidden;
+	height: 60px;
+}
+#news .strong p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-top: 0px;
+	overflow: hidden;
+	height: 60px;	
+}
+
+.butt {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	float: all;
+	margin-bottom: 50px;
+
+}
+.butt button {
+	text-align: center;
+	text-transform: uppercase;
+	background: black;
+	color: white;
+	padding: 14px 28px;
+}
+.butt button:hover {
+	background: white;
+	color: black;
+	transition: 0.5s;
+	
+	animation-name: example;
+	 -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+}
+-webkit-keyframes example {
+  from {position: left;}
+  to {position: right;}
+}
+@keyframes example {
+  from {position: left;}
+  to {position: right;}
+}
+
+.full {
+	width: 100%;
+	height: auto;
+	background: #363636;
+	color: white;
+	float: all;
+}
+.footer {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0px 40px 0px;
+}
+
+.element ul  {
+	overflow: hidden;	
+	margin: 0px;
+	padding: 10px;	
+}
+.element li {
+	overflow: hidden;
+	margin-top: 8px;
+	font-weight: ;
+}
+.element {
+	width: 23%;
+	height: auto;
+	box-sizing: border-box;
+}
+.element h5 {
+	font-size: 105%;
+	padding: 10px;
+	margin : 40px 0px 15px 0px;
+}
+.element img {
+	padding: 20px 0px;
+	width: 70%;
+	height: auto;
+	margin: 0px 41px;
+}
+@media (max-width: 1100px){
+	#news .strong {
+		width: 46%;
+		transition: 0.5s;
+	}
+}
+@media (max-width: 560px){
+	#news .strong {
+		width: 100%;
+		transition: 0.5s;
+	}
+}
